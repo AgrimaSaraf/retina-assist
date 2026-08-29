@@ -1,22 +1,30 @@
-# Measures
+# Candidate measures
 
-## Primary
-- Initial decision accuracy
-- Final decision accuracy
-- Decision time
-- Decision change rate
-- Change-toward-AI rate
+## Screening
+- initial decision
+- final decision
+- confidence before/after AI
+- agreement with reference standard
+- appropriate reliance
+- inappropriate reliance
+- decision time
+- explanation interaction
+- usability
 
-## Human-AI reliance
-- Appropriate acceptance: human initially wrong, AI right, final follows AI
-- Appropriate rejection: human right, AI wrong, final rejects AI
-- Automation bias: human initially right, AI wrong, final changes toward AI
-- Missed benefit: human wrong, AI right, final rejects AI
+## Follow-up
+- completion within predefined window
+- days late
+- no-show rate
+- successful contact
+- staff time
+- number of manual steps
+- usability/workload
 
-## Secondary
-- Self-reported confidence (1–5)
-- Explanation opened
-- Trust/usefulness questionnaire
-- Qualitative clinician feedback
-
-Do not interpret these as validated clinical-study endpoints until the protocol and instruments have been reviewed appropriately.
+## Model
+- AUROC
+- average precision
+- sensitivity/specificity
+- PPV
+- calibration
+- Brier score
+- subgroup error analysis

@@ -1,16 +1,20 @@
-# Analysis plan — draft
+# Draft analysis plan
 
-1. Describe participant experience level and case mix.
-2. Report model performance independently of human-subject outcomes.
-3. Compare initial vs final clinician decisions.
-4. Compare experimental conditions on:
-   - accuracy
-   - decision time
-   - confidence
-   - appropriate reliance
-   - automation bias
-5. Analyze correct-AI and incorrect-AI cases separately.
-6. Report uncertainty and confidence intervals, not only p-values.
-7. Pre-register confirmatory hypotheses before collecting confirmatory study data.
+## Retrospective follow-up
+Report cohort size, outcome prevalence, days late, and missingness.
 
-The final statistical model should be selected with a qualified research/statistics collaborator and account for repeated observations from clinicians and cases.
+Compare:
+1. prevalence baseline
+2. operational rules
+3. logistic regression
+4. optional nonlinear model
+
+Evaluate AUROC, average precision, calibration, Brier score, and operationally meaningful thresholds.
+
+Prefer held-out temporal/external validation when enough real data exist.
+
+## Human-AI screening
+Predefine comparisons. Candidate endpoints: initial-to-final decision change, reference-standard agreement, reliance, confidence, and task time.
+
+## Prospective intervention
+Before data collection define unit of allocation/randomization, primary estimand, endpoint, analysis population, repeated encounters, missing outcomes, covariate adjustment, and multiplicity.

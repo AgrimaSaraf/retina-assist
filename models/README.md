@@ -1,9 +1,13 @@
-# Model checkpoint
+# Models
 
-Place the validated retinal-disease checkpoint here as:
+Expected retinal checkpoint:
 
-`retinaassist_dr.pth`
+`models/retinaassist_dr.pth`
 
-The application deliberately returns `503 MODEL_NOT_TRAINED` until this file exists.
+Expected optional follow-up artifact:
 
-ImageNet EfficientNet weights are only an initialization for transfer learning; they are not a retinal diagnostic model.
+`models/followup_logistic.joblib`
+
+Model binaries are gitignored.
+
+The synthetic follow-up model has no clinical validity.
